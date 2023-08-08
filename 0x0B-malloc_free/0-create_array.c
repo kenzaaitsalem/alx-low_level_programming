@@ -8,11 +8,11 @@
  * @b: unsigned int type
  * Return: return pointer
  */
-void *malloc_checked(unsigned int b)
+char *create_array(unsigned int size, char c);
 {
 	int *ptr;
 
-	ptr = malloc(b);
+	ptr = malloc(size * sizeof(char));
 	if (ptr == NULL)
 		exit(98);
 	return (ptr);
