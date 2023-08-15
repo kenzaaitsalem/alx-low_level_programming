@@ -10,4 +10,4 @@ typedef struct s_dog
 	char *owner;
 } t_dog;
 
-
+#endif
